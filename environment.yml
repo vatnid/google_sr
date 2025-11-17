@@ -1,0 +1,8 @@
+# run: mamba env create --file environment.yml
+name: transcribe
+dependencies:
+- python=3.10
+- pip
+- pip:
+  - soundfile
+  - SpeechRecognition
